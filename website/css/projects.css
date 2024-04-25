@@ -1,0 +1,92 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.box1{
+	height: 100vh;
+	width: 100%;
+	background-image: url("fixback1.jpeg");
+	background-size: cover;
+	background-position: center;
+	display: table;
+	background-attachment: fixed;
+}
+
+.box2{
+	height: 100vh;
+	width: 100%;
+	background-image: url("fixback2.jpeg");
+	background-size: cover;
+	background-position: center;
+	display:table;
+	background-attachment: fixed;
+
+}
+
+.box3{
+	height: 100vh;
+	width: 100%;
+	background-image: url("fixback3.jpeg");
+	background-size: cover;
+	background-position: center;
+	display: table;
+	background-attachment: fixed;
+}
+
+.box4{
+	height: 100vh;
+	width: 100%;
+	background-image: url("fixback4.jpeg");
+	background-size: cover;
+	background-position: center;
+	display: table;
+	background-attachment: fixed;
+}	
+
+h1{
+	font-family: sans-serif;
+	font-size: 80px;
+	color: #fff;
+	margin: 0px;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+.text{
+    margin-top: 3.5rem;
+	margin-left: 5rem;
+}
+.text h1{
+	color: whitesmoke;
+}
+.video{
+	margin-left: 2.5rem;
+}
+.container{
+	display: flex;
+	margin: 20px 0;
+	align-items: center;
+	border-radius: 6px;
+	overflow: hidden;
+}
+.container p{
+	color: #fff;
+	margin-left: 4rem;
+	margin-right: 4rem;
+	font-size: 1.9rem;
+}
+.DownloadbtnDark{
+	color: darkgray;
+    background: black;
+    border-color: gray;
+	font-size: 2rem;
+	margin-left: 12rem;
+}
+.DownloadbtnDark:hover{
+	background-color: darkgray;
+	border-color: black;
+	color: white;
+	cursor: pointer;
+	transition: all .4s;
+}

@@ -1,0 +1,45 @@
+.flex{
+    display: flex ;
+}
+.items-center{
+    align-items: center;
+}
+.justify{
+    justify-content: space-between;
+}   
+
+.button{
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid rebeccapurple;
+    cursor: pointer;
+    background-color: var(--primary);
+}
+
+
+.button:hover{
+    background: transparent;
+    border-color: var(--primary);
+    color:var(--primary);
+    transition: 200ms;
+}
+
+.button-separate{
+    background: transparent;
+    border-color: var(--primary);
+    color:var(--primary);
+    font-size: 2rem;
+    margin-left: 28rem;
+    margin-bottom: 6rem;
+}
+
+.button-separate:hover{
+    color: var(--dark);
+    cursor: pointer;
+    background-color: var(--primary);
+    border-color: gray;
+    transition: all .4s;
+}
